@@ -1,20 +1,22 @@
 * {
   box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, "Times New Roman", serif;
 }
 h1 {
   text-align: center;
   margin-bottom: 15px;
   font-weight: bold;
+  font-size: 175%;
 }
 
 p {
-  border: 2px solid black;
+  border: 1px solid black;
   background-color: #b3b3b3;
   width: 90%;
   height: 235px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Arial, "Times New Roman", serif;
   color: black;
   padding: 16px;
   overflow: hidden;
@@ -23,11 +25,11 @@ p {
 
 
 #chicken, #beef, #sushi {
-	font-size: 17px;
+	font-size: 125%;
 	position: relative;
 	float: right;
 	width: 100px;
-	border: 2px solid black;
+	border: 1px solid black;
 	text-align: center;
 	top: -18px;
 	right: -18px;
